@@ -20,6 +20,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "navigation_stage/catkin_generated/package.cmake"
   "robot_setup_tf/catkin_generated/ordered_paths.cmake"
   "robot_setup_tf/catkin_generated/package.cmake"
+  "smartcar_description/catkin_generated/ordered_paths.cmake"
+  "smartcar_description/catkin_generated/package.cmake"
   "/home/jerryai/Documents/slamcar/src/CMakeLists.txt"
   "/home/jerryai/Documents/slamcar/src/art_imu/CMakeLists.txt"
   "/home/jerryai/Documents/slamcar/src/art_imu/package.xml"
@@ -29,6 +31,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/jerryai/Documents/slamcar/src/navigation_stage/package.xml"
   "/home/jerryai/Documents/slamcar/src/robot_setup_tf/CMakeLists.txt"
   "/home/jerryai/Documents/slamcar/src/robot_setup_tf/package.xml"
+  "/home/jerryai/Documents/slamcar/src/smartcar_description/CMakeLists.txt"
+  "/home/jerryai/Documents/slamcar/src/smartcar_description/package.xml"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlib-msg-extras.cmake"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlibConfig-version.cmake"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlibConfig.cmake"
@@ -127,6 +131,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/kinetic/share/rosconsole/cmake/rosconsole-extras.cmake"
   "/opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig-version.cmake"
   "/opt/ros/kinetic/share/rosconsole/cmake/rosconsoleConfig.cmake"
+  "/opt/ros/kinetic/share/rosconsole_bridge/cmake/rosconsole_bridgeConfig-version.cmake"
+  "/opt/ros/kinetic/share/rosconsole_bridge/cmake/rosconsole_bridgeConfig.cmake"
   "/opt/ros/kinetic/share/roscpp/cmake/roscpp-msg-extras.cmake"
   "/opt/ros/kinetic/share/roscpp/cmake/roscppConfig-version.cmake"
   "/opt/ros/kinetic/share/roscpp/cmake/roscppConfig.cmake"
@@ -161,6 +167,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/kinetic/share/tf2_py/cmake/tf2_pyConfig.cmake"
   "/opt/ros/kinetic/share/tf2_ros/cmake/tf2_rosConfig-version.cmake"
   "/opt/ros/kinetic/share/tf2_ros/cmake/tf2_rosConfig.cmake"
+  "/opt/ros/kinetic/share/urdf/cmake/urdfConfig-version.cmake"
+  "/opt/ros/kinetic/share/urdf/cmake/urdfConfig.cmake"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake"
@@ -223,6 +231,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "ls01g/CMakeFiles/CMakeDirectoryInformation.cmake"
   "art_imu/CMakeFiles/CMakeDirectoryInformation.cmake"
   "robot_setup_tf/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "smartcar_description/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

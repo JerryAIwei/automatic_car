@@ -348,7 +348,7 @@ gtest_force_shared_crt:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/kinetic/lib/libtf2.so
+lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
 
 //Value Computed by CMake
 ls01g_BINARY_DIR:STATIC=/home/jerryai/Documents/slamcar/build/ls01g
@@ -380,6 +380,9 @@ robot_setup_tf_SOURCE_DIR:STATIC=/home/jerryai/Documents/slamcar/src/robot_setup
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/kinetic/share/rosconsole/cmake
 
+//The directory containing a CMake configuration file for rosconsole_bridge.
+rosconsole_bridge_DIR:PATH=/opt/ros/kinetic/share/rosconsole_bridge/cmake
+
 //The directory containing a CMake configuration file for roscpp.
 roscpp_DIR:PATH=/opt/ros/kinetic/share/roscpp/cmake
 
@@ -404,6 +407,12 @@ rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/kinetic/share/sensor_msgs/cmake
 
+//Value Computed by CMake
+smartcar_description_BINARY_DIR:STATIC=/home/jerryai/Documents/slamcar/build/smartcar_description
+
+//Value Computed by CMake
+smartcar_description_SOURCE_DIR:STATIC=/home/jerryai/Documents/slamcar/src/smartcar_description
+
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
 
@@ -421,6 +430,9 @@ tf2_ros_DIR:PATH=/opt/ros/kinetic/share/tf2_ros/cmake
 
 //The directory containing a CMake configuration file for tf.
 tf_DIR:PATH=/opt/ros/kinetic/share/tf/cmake
+
+//The directory containing a CMake configuration file for urdf.
+urdf_DIR:PATH=/opt/ros/kinetic/share/urdf/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/kinetic/share/xmlrpcpp/cmake
@@ -529,7 +541,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

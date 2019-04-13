@@ -106,3 +106,10 @@
 /home/jerryai/Documents/slamcar/build/robot_setup_tf/CMakeFiles/tf_broadcaster.dir
 /home/jerryai/Documents/slamcar/build/robot_setup_tf/CMakeFiles/install/strip.dir
 /home/jerryai/Documents/slamcar/build/robot_setup_tf/CMakeFiles/install/local.dir
+/home/jerryai/Documents/slamcar/build/smartcar_description/CMakeFiles/list_install_components.dir
+/home/jerryai/Documents/slamcar/build/smartcar_description/CMakeFiles/install.dir
+/home/jerryai/Documents/slamcar/build/smartcar_description/CMakeFiles/rebuild_cache.dir
+/home/jerryai/Documents/slamcar/build/smartcar_description/CMakeFiles/install/strip.dir
+/home/jerryai/Documents/slamcar/build/smartcar_description/CMakeFiles/install/local.dir
+/home/jerryai/Documents/slamcar/build/smartcar_description/CMakeFiles/test.dir
+/home/jerryai/Documents/slamcar/build/smartcar_description/CMakeFiles/edit_cache.dir

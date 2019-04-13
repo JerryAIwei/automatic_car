@@ -121,6 +121,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/jerryai/Documents/slamcar/build/ls01g/cmake_install.cmake")
   include("/home/jerryai/Documents/slamcar/build/art_imu/cmake_install.cmake")
   include("/home/jerryai/Documents/slamcar/build/robot_setup_tf/cmake_install.cmake")
+  include("/home/jerryai/Documents/slamcar/build/smartcar_description/cmake_install.cmake")
 
 endif()
 

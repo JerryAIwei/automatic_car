@@ -2126,6 +2126,24 @@ clean: robot_setup_tf/CMakeFiles/tf_broadcaster.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory smartcar_description
+
+# Convenience name for "all" pass in the directory.
+smartcar_description/all:
+
+.PHONY : smartcar_description/all
+
+# Convenience name for "clean" pass in the directory.
+smartcar_description/clean:
+
+.PHONY : smartcar_description/clean
+
+# Convenience name for "preinstall" pass in the directory.
+smartcar_description/preinstall:
+
+.PHONY : smartcar_description/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.
