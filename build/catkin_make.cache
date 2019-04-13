@@ -1,0 +1,2 @@
+art_imu:ls01g:navigation_stage:robot_setup_tf
+-DCATKIN_DEVEL_PREFIX=/home/jerryai/Documents/slamcar/devel -DCMAKE_INSTALL_PREFIX=/home/jerryai/Documents/slamcar/install -G Unix Makefiles

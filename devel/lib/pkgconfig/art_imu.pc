@@ -1,0 +1,8 @@
+prefix=/home/jerryai/Documents/slamcar/devel
+
+Name: art_imu
+Description: Description of art_imu
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/jerryai/Documents/slamcar/devel/lib 
+Requires: 
